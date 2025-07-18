@@ -10,6 +10,18 @@
   <div class="container">
     <h1>Hello, World! 🌍</h1>
     <p>Welcome to your first HTML + CSS page.</p>
+    <button class="magic-button" onclick="sayHello()">Click me ✨</button>
+    <p id="message"></p>
   </div>
+
+
+
+
+  <script>
+    function sayHello() {
+      const msg = document.getElementById('message');
+      msg.textContent = 'You clicked the magic button! 🎉';
+    }
+  </script>
 </body>
 </html>
