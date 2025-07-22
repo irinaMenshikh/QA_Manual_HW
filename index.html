@@ -1,33 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <title>Про мене</title>
 </head>
 <body>
-  <div class="container">
-    <h1>Hello, World! 🌍</h1>
-    <p>Welcome to your first HTML + CSS page.</p>
-    <button class="magic-button" onclick="sayHello()">Click me ✨</button>
-    <p id="message"></p>
-  </div>
-<div>
-    <blockquote cite="https://www.huxley.net/bnw/four.html">
-    <p>
-        Мрії не працюють, поки не працюєш ти.
-    </p>
-  </blockquote>
-</div>
+  <header>
+    <h1>Привіт! Я — Ірина</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="pages/gallery.html">Галерея</a></li>
+        <li><a href="pages/contact.html">Контакти</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main>
+    <section>
+      <h2>Про мене</h2>
+      <img src="img/me.jpg" alt="Моє фото" width="300">
+      <p>Я люблю читати, особливо англійською мовою, проводити час з родиною, мандрувати та відкривати нові країни. Мрію працювати QA Automation Engineer і активно вивчаю мови програмування.</p>
+    </section>
 
+    <section>
+      <h2>Улюблені заняття</h2>
+      <ol>
+        <li>Читання книг англійською 📖</li>
+        <li>Час із родиною ❤️</li>
+        <li>Подорожі світом 🌍</li>
+        <li>Вивчення програмування 💻</li>
+        <li>QA автоматизація 🛠️</li>
+      </ol>
+    </section>
 
-  <script>
-    function sayHello() {
-      const msg = document.getElementById('message');
-      msg.textContent = 'You clicked the magic button! 🎉';
-    }
-  </script>
+    <section>
+      <h2>Мій профіль</h2>
+      <table border="1">
+        <tr>
+          <th>Ім’я</th>
+          <td>Ірина Меньших</td>
+        </tr>
+        <tr>
+          <th>Мета</th>
+          <td>Стати QA Automation Engineer</td>
+        </tr>
+        <tr>
+          <th>Хобі</th>
+          <td>Читання, подорожі, сім’я, програмування</td>
+        </tr>
+        <tr>
+          <th>Улюблена мова програмування</th>
+          <td>JavaScript</td>
+        </tr>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ірина Менших</p>
+  </footer>
 </body>
 </html>
