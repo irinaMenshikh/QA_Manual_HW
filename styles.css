@@ -1,0 +1,170 @@
+/* Базові налаштування */
+body.body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fefefe;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Заголовки */
+.page-title {
+  font-size: 2.2rem;
+  color: #3a3a3a;
+  margin: 0.5em 0;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 1.6rem;
+  color: #555;
+  margin-bottom: 0.5em;
+}
+
+/* Хедер */
+.header {
+  background-color: #f3f5f7;
+  padding: 1em;
+  border-bottom: 1px solid #ccc;
+}
+
+.nav {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #008080;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #004d4d;
+}
+
+/* Основна частина */
+.main {
+  max-width: 900px;
+  margin: 2em auto;
+  padding: 0 1em;
+}
+
+.profile-img,
+.gallery-img {
+  display: block;
+  margin: 0 auto 1em auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* Текст */
+.section-text,
+.item-text {
+  font-size: 1rem;
+  margin-bottom: 1.5em;
+  text-align: justify;
+}
+
+/* Списки */
+.hobby-list,
+.contacts-list {
+  padding-left: 1.2em;
+}
+
+.hobby-item,
+.contact-item {
+  margin-bottom: 0.5em;
+}
+
+/* Таблиця */
+.profile-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+.table-header {
+  background-color: #e7f1f1;
+  color: #222;
+  padding: 10px;
+  text-align: left;
+}
+
+.table-data {
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+/* Форма */
+.contact-form {
+  max-width: 500px;
+  margin: 1em auto;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.3em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+
+.form-button {
+  margin-top: 1em;
+  padding: 0.6em 1.2em;
+  border: none;
+  background-color: #008080;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #006666;
+}
+
+/* Футер */
+.footer {
+  background-color: #f3f5f7;
+  padding: 1em;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  margin-top: 2em;
+}
+
+.back-link {
+  color: #008080;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.footer-copy {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 0.5em;
+}

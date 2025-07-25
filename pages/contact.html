@@ -3,47 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <title>Контакти</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <header>
-    <h1>Контактна інформація</h1>
-    <nav>
-      <ul>
-        <li><a href="../index.html">Головна</a></li>
-        <li><a href="gallery.html">Галерея</a></li>
+<body class="body">
+
+  <header class="header">
+    <h1 class="page-title">Контактна інформація</h1>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="../index.html" class="nav-link">Головна</a></li>
+        <li class="nav-item"><a href="gallery.html" class="nav-link">Галерея</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <section>
-      <h2>Мої контакти</h2>
-      <ul>
-        <li>Email: <a href="mailto:menshikh26@gmail.com">menshikh26@gmail.com</a></li>
-        <li>Telegram: <a href="https://t.me/username_sagittarius">@username_sagittarius</a></li>
+  <main class="main">
+    <section class="contacts-section">
+      <h2 class="section-title">Мої контакти</h2>
+      <ul class="contacts-list">
+        <li class="contact-item">Email: <a href="mailto:menshikh26@gmail.com" class="contact-link">menshikh26@gmail.com</a></li>
+        <li class="contact-item">Telegram: <a href="https://t.me/username_sagittarius" class="contact-link">@username_sagittarius</a></li>
       </ul>
     </section>
 
-    <section>
-      <h2>Форма зворотного зв'язку</h2>
-      <form action="#" method="post">
-        <label for="name">Ім'я:</label><br>
-        <input type="text" id="name" name="name"><br><br>
+    <section class="form-section">
+      <h2 class="section-title">Форма зворотного зв'язку</h2>
+      <form action="#" method="post" class="contact-form">
+        <label for="name" class="form-label">Ім'я:</label><br>
+        <input type="text" id="name" name="name" class="form-input"><br><br>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br><br>
+        <label for="email" class="form-label">Email:</label><br>
+        <input type="email" id="email" name="email" class="form-input"><br><br>
 
-        <label for="message">Повідомлення:</label><br>
-        <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+        <label for="message" class="form-label">Повідомлення:</label><br>
+        <textarea id="message" name="message" rows="4" cols="30" class="form-textarea"></textarea><br><br>
 
-        <button type="submit">Надіслати</button>
+        <button type="submit" class="form-button">Надіслати</button>
       </form>
     </section>
   </main>
 
-  <footer>
-    <p><a href="../index.html">← Назад на головну</a></p>
-    <p>&copy; 2025 Ірина Менших</p>
+  <footer class="footer">
+    <p class="footer-link"><a href="../index.html" class="back-link">← Назад на головну</a></p>
+    <p class="footer-copy">&copy; 2025 Ірина Менших</p>
   </footer>
+
 </body>
 </html>

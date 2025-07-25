@@ -3,62 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <title>Про мене</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <header>
-    <h1>Привіт! Я — Ірина</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Головна</a></li>
-        <li><a href="pages/gallery.html">Галерея</a></li>
-        <li><a href="pages/contact.html">Контакти</a></li>
+<body class="body">
+
+  <header class="header">
+    <h1 class="page-title">Привіт! Я — Ірина</h1>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="index.html" class="nav-link">Головна</a></li>
+        <li class="nav-item"><a href="pages/gallery.html" class="nav-link">Галерея</a></li>
+        <li class="nav-item"><a href="pages/contact.html" class="nav-link">Контакти</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <section>
-      <h2>Про мене</h2>
-      <img src="img/me.jpg" alt="Моє фото" width="300">
-      <p>Я люблю читати, особливо англійською мовою, проводити час з родиною, мандрувати та відкривати нові країни. Мрію працювати QA Automation Engineer і активно вивчаю мови програмування.</p>
+  <main class="main">
+    <section class="about-section">
+      <h2 class="section-title">Про мене</h2>
+      <img src="img/me.jpg" alt="Моє фото" width="300" class="profile-img">
+      <p class="section-text">Я люблю читати, особливо англійською мовою, проводити час з родиною, мандрувати та відкривати нові країни. Мрію працювати QA Automation Engineer і активно вивчаю мови програмування.</p>
     </section>
 
-    <section>
-      <h2>Улюблені заняття</h2>
-      <ol>
-        <li>Читання книг англійською 📖</li>
-        <li>Час із родиною ❤️</li>
-        <li>Подорожі світом 🌍</li>
-        <li>Вивчення програмування 💻</li>
-        <li>QA автоматизація 🛠️</li>
+    <section class="hobbies-section">
+      <h2 class="section-title">Улюблені заняття</h2>
+      <ol class="hobby-list">
+        <li class="hobby-item">Читання книг англійською 📖</li>
+        <li class="hobby-item">Час із родиною ❤️</li>
+        <li class="hobby-item">Подорожі світом 🌍</li>
+        <li class="hobby-item">Вивчення програмування 💻</li>
+        <li class="hobby-item">QA автоматизація 🛠️</li>
       </ol>
     </section>
 
-    <section>
-      <h2>Мій профіль</h2>
-      <table border="1">
+    <section class="profile-section">
+      <h2 class="section-title">Мій профіль</h2>
+      <table border="1" class="profile-table">
         <tr>
-          <th>Ім’я</th>
-          <td>Ірина Меньших</td>
+          <th class="table-header">Ім’я</th>
+          <td class="table-data">Ірина Меньших</td>
         </tr>
         <tr>
-          <th>Мета</th>
-          <td>Стати QA Automation Engineer</td>
+          <th class="table-header">Мета</th>
+          <td class="table-data">Стати QA Automation Engineer</td>
         </tr>
         <tr>
-          <th>Хобі</th>
-          <td>Читання, подорожі, сім’я, програмування</td>
+          <th class="table-header">Хобі</th>
+          <td class="table-data">Читання, подорожі, сім’я, програмування</td>
         </tr>
         <tr>
-          <th>Улюблена мова програмування</th>
-          <td>JavaScript</td>
+          <th class="table-header">Улюблена мова програмування</th>
+          <td class="table-data">JavaScript</td>
         </tr>
       </table>
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2025 Ірина Менших</p>
+  <footer class="footer">
+    <p class="footer-copy">&copy; 2025 Ірина Менших</p>
   </footer>
+
 </body>
 </html>
